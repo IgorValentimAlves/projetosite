@@ -41,3 +41,15 @@ a:hover {
     text-decoration: underline;
     color:rgb(110, 110, 226)
 }
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10xp;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
+}
