@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(214, 160, 160);
+    background-color: rgb(180, 174, 174);
 
 }
 
@@ -15,4 +15,41 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486)
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(155, 60, 60);
+}
+
+h2 {
+    font-size: 1,5em;
+    color: rgb(155, 60, 60);
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:rgb(110, 110, 226)
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10xp;
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto;
 }
